@@ -3,7 +3,7 @@ import db, ai, os
 
 app = Flask(__name__, static_folder='static')
 
-# ── Static files ──────────────────────────────────────────────────────────────
+# ── Static files ──────────────────────────────────────────────────────────────1
 @app.route('/')
 def index():
     return send_from_directory('static', 'index.html')
